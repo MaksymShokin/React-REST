@@ -108,7 +108,7 @@ class App extends Component {
 
   signupHandler = (event, authData) => {
     event.preventDefault();
-    debugger
+
     this.setState({ authLoading: true });
     fetch('http://localhost:8080/auth/signup', {
       method: 'PUT',
