@@ -243,3 +243,6 @@ class App extends Component {
 }
 
 export default withRouter(App);
+
+
+// npm install --save socket.io-client
